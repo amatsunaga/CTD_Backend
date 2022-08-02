@@ -1,11 +1,11 @@
-package aula1_JUnit.exercicio;
+package aula1_JUnit.exercicio1;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class PersonTest {
+class PessoaTest {
     Person andrea = new Person("Andrea", "Matsunaga", "andrea@dh.com", 36);
 
     @Test

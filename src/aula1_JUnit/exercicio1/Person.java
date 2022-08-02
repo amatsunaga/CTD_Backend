@@ -1,4 +1,4 @@
-package aula1_JUnit.exercicio;
+package aula1_JUnit.exercicio1;
 
 public class Person {
     private String nome;
