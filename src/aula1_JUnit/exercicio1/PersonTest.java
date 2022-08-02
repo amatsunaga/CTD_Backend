@@ -5,14 +5,14 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class PessoaTest {
-    Person andrea = new Person("Andrea", "Matsunaga", "andrea@dh.com", 36);
+class PersonTest {
+    Person andrea = new Person("Maria", "Pereira", "maria@dh.com", 46);
 
     @Test
     public void testaNomeCompleto() {
         String nomeCompleto = andrea.exibirNomeCompleto();
 
-        assertEquals("Matsunaga, Andrea", nomeCompleto);
+        assertEquals("Pereira, Maria", nomeCompleto);
     }
 
     @Test
