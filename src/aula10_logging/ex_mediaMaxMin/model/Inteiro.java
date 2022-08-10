@@ -2,31 +2,54 @@ package aula10_logging.ex_mediaMaxMin.model;
 
 import org.apache.log4j.Logger;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.util.*;
 
-public class Media {
+public class Inteiro {
 
-    private static final Logger logger = Logger.getLogger(Media.class);
-    private List<Integer> listaInteiros = new ArrayList<>();
-
+    private static final Logger logger = Logger.getLogger(Inteiro.class);
+    private List<Integer> listaInteiros;
     public double calcularMedia() {
-//        double soma = listaInteiros.stream().reduce(int a, int b => a + b)
-        double soma = 0;
-        double tamanho = listaInteiros.size();
+        Double media;
 
-        for (Integer numero : listaInteiros) {
-            soma += numero;
+/*        soma = listaInteiros.stream().reduce(0, (a, b) -> a + b);
+        media = soma / listaInteiros.size();*/
+
+        try {
+            media = listaInteiros.stream().mapToDouble(d -> d).average().getAsDouble();
+            String mediaFormatada = media.toString().format(Locale.ENGLISH, "%.2f", media);
+
+            logger.info("Média = " + mediaFormatada);
+            return media;
+
+        } catch(Exception e) {
+            logger.error("Impossível obter a média", e);
+            return -1;
         }
-
-        double media = soma / tamanho;
-
-        return media;
     }
 
-//    public Integer getMaximo() {
-//        listaInteiros.stream().max();
-//    }
+    public Integer getMaximo() {
+        try {
+            Integer maximo = Collections.max(listaInteiros);
+            logger.info("O valor máximo é " + maximo);
+            return maximo;
+        } catch (Exception e) {
+            logger.error("Impossível obter valor máximo", e);
+            return -1;
+        }
+    }
+
+    public Integer getMinimo() {
+        try {
+            Integer minimo = Collections.min(listaInteiros);
+            logger.info("O valor mínimo é " + minimo);
+            return minimo;
+        } catch (Exception e) {
+            logger.error("Impossível obter valor mínimo", e);
+            return -1;
+        }
+    }
 
     public void verificarLista() {
         double tamanho = listaInteiros.size();
@@ -35,13 +58,16 @@ public class Media {
             logger.info("O comprimento da lista é maior que 10");
         } else if (tamanho > 5) {
             logger.info("O comprimento da lista é maior que 5");
-        } else if (tamanho == 0) {
-            logger.error("A lista é igual a zero");
+        } else {
+            logger.error("O comprimento da lista é igual a zero", new Exception());
         }
     }
 
-    public Media(List<Integer> listaInteiros) {
+    public Inteiro(List<Integer> listaInteiros) {
         this.listaInteiros = listaInteiros;
         calcularMedia();
+        getMaximo();
+        getMinimo();
+        verificarLista();
     }
 }

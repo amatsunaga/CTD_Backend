@@ -1,12 +1,11 @@
-package aula8_facadePattern.ex_descontos;
+package aula8_facadePattern.ex_descontos.service.impl;
 
 import aula8_facadePattern.ex_descontos.model.Cartao;
 import aula8_facadePattern.ex_descontos.model.Produto;
-import aula8_facadePattern.ex_descontos.service.impl.ApiCartao;
-import aula8_facadePattern.ex_descontos.service.impl.ApiProduto;
-import aula8_facadePattern.ex_descontos.service.impl.ApiQuantidade;
+import aula8_facadePattern.ex_descontos.service.IDescontoFacade;
 
-public class DescontoFacade implements IDesconto {
+public class DescontoFacade implements IDescontoFacade {
+
     @Override
     public int calcularDesconto(Produto produto, Cartao cartao, int quantidade) {
         int descontoTotal = ApiCartao.descontoCartao(cartao) +

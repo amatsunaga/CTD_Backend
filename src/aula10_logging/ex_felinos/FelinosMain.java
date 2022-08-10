@@ -1,4 +1,7 @@
-package aula10_logging.ex_felinos.model;
+package aula10_logging.ex_felinos;
+
+import aula10_logging.ex_felinos.model.Leao;
+import aula10_logging.ex_felinos.model.Tigre;
 
 public class FelinosMain {
     public static void main(String[] args) {

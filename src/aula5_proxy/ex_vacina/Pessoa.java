@@ -1,4 +1,4 @@
-package aula5_proxy.ex_Vacina;
+package aula5_proxy.ex_vacina;
 
 import java.time.LocalDate;
 

@@ -1,6 +1,6 @@
-package com.dh.ecommerce.service.impl;
+package aula8_facadePattern.exemplo_ecommerce.service.impl;
 
-import com.dh.ecommerce.model.Cartao;
+import aula8_facadePattern.exemplo_ecommerce.model.Cartao;
 
 public class PgtoService {
     public Boolean processarPgto(Cartao cartao, String quantiaACobrar){

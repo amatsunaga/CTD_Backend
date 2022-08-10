@@ -1,4 +1,4 @@
-package com.dh.ecommerce.model;
+package aula8_facadePattern.exemplo_ecommerce.model;
 
 public class Produto {
     private String produtoId;

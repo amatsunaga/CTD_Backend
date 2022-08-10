@@ -1,13 +1,13 @@
-package com.dh.ecommerce;
+package aula8_facadePattern.exemplo_ecommerce;
 
-import com.dh.ecommerce.model.Cartao;
-import com.dh.ecommerce.model.Endereco;
-import com.dh.ecommerce.model.Produto;
-import com.dh.ecommerce.service.ICompraService;
-import com.dh.ecommerce.service.impl.ArmazemService;
-import com.dh.ecommerce.service.impl.CompraService;
-import com.dh.ecommerce.service.impl.EnvioService;
-import com.dh.ecommerce.service.impl.PgtoService;
+import aula8_facadePattern.exemplo_ecommerce.model.Cartao;
+import aula8_facadePattern.exemplo_ecommerce.model.Endereco;
+import aula8_facadePattern.exemplo_ecommerce.model.Produto;
+import aula8_facadePattern.exemplo_ecommerce.service.ICompraService;
+import aula8_facadePattern.exemplo_ecommerce.service.impl.ArmazemService;
+import aula8_facadePattern.exemplo_ecommerce.service.impl.CompraService;
+import aula8_facadePattern.exemplo_ecommerce.service.impl.EnvioService;
+import aula8_facadePattern.exemplo_ecommerce.service.impl.PgtoService;
 
 import java.util.Arrays;
 

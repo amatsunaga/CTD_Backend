@@ -1,7 +1,7 @@
-package com.dh.ecommerce.service;
+package aula8_facadePattern.exemplo_ecommerce.service;
 
-import com.dh.ecommerce.model.Cartao;
-import com.dh.ecommerce.model.Endereco;
+import aula8_facadePattern.exemplo_ecommerce.model.Cartao;
+import aula8_facadePattern.exemplo_ecommerce.model.Endereco;
 
 public interface ICompraService {
 

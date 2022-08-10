@@ -1,4 +1,4 @@
-package aula5_proxy.ex_serie;
+package aula5_proxy.ex_serie_finalizar;
 
 public class SerieProxy implements iSerie {
 

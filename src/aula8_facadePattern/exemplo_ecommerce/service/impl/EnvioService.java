@@ -1,7 +1,7 @@
-package com.dh.ecommerce.service.impl;
+package aula8_facadePattern.exemplo_ecommerce.service.impl;
 
-import com.dh.ecommerce.model.Endereco;
-import com.dh.ecommerce.model.Produto;
+import aula8_facadePattern.exemplo_ecommerce.model.Endereco;
+import aula8_facadePattern.exemplo_ecommerce.model.Produto;
 
 import java.util.List;
 

@@ -2,35 +2,31 @@ package aula10_logging.ex_felinos.model;
 
 import org.apache.log4j.Logger;
 
-public class Leao {
-        Logger logger = Logger.getLogger(Leao.class);
+public class Tigre {
+    private static final Logger logger = Logger.getLogger(Tigre.class);
 
     private String nome;
     private int idade;
-    private boolean eAlfa;
 
     public void correr() {
-        logger.info(this.nome + " está correndo!");
+
+        logger.info("O tigre " + this.nome + " está correndo!");
     }
 
-    public void maiorAlfa() {
+    public void eMaiorQue10() {
 
-        if (idade > 10 && eAlfa) {
-            logger.info("É alfa e tem mais de 10 anos.");
-        } else try {
-            if (idade > 0) {
-                logger.info("Não tem mais de 10 anos ou não é alfa");
-            }
-        } catch (Exception e) {
-            logger.error("Idade não pode ser negativa", e);
+        if (idade > 10) {
+            logger.info(nome + " tem mais de 10 anos.");
+        } else if (idade >= 0) {
+            logger.info(nome + " não tem mais de 10 anos");
+        } else {
+            logger.error("A idade de " + nome + " não pode ser negativa", new Exception());
         }
     }
 
-
-    public Leao(String nome, int idade, boolean eAlfa) {
+    public Tigre(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
-        this.eAlfa = eAlfa;
     }
 
     public String getNome() {
@@ -49,11 +45,4 @@ public class Leao {
         this.idade = idade;
     }
 
-    public boolean iseAlfa() {
-        return eAlfa;
-    }
-
-    public void seteAlfa(boolean eAlfa) {
-        this.eAlfa = eAlfa;
-    }
 }

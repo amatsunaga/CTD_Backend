@@ -1,4 +1,4 @@
-package aula5_proxy.ex_Vacina;
+package aula5_proxy.ex_vacina;
 
 public interface IVacina {
     void vacinar(Pessoa pessoa);
