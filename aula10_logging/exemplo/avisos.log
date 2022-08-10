@@ -1,0 +1,6 @@
+[2022-08-09 15:42:11] [ INFO ] [Calculadora:29] Tentativa de divisão: 1/0
+[2022-08-09 15:42:11] [ DEBUG] [Calculadora:32] Try da divisão
+[2022-08-09 15:42:11] [ ERROR] [Calculadora:35] Divisão deu erro: 
+java.lang.ArithmeticException: / by zero
+	at aula10_logging.exemplo.Calculadora.dividir(Calculadora.java:33)
+	at aula10_logging.exemplo.Main.main(Main.java:10)
