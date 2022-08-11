@@ -660,3 +660,204 @@ java.lang.Exception
 	at aula10_logging.ex_mediaMaxMin.model.Inteiro.verificarLista(Inteiro.java:62)
 	at aula10_logging.ex_mediaMaxMin.model.Inteiro.<init>(Inteiro.java:71)
 	at aula10_logging.ex_mediaMaxMin.MediaMain.main(MediaMain.java:11)
+[2022-08-10 20:20:54] [ INFO ] [AnimalMain:26] Banco de dados conectado
+[2022-08-10 20:20:54] [ INFO ] [AnimalMain:31] Tabela criada
+[2022-08-10 20:20:54] [ INFO ] [AnimalMain:34] Dados inseridos na tabela
+[2022-08-10 20:20:54] [ INFO ] [AnimalMain:37] Dados inseridos na tabela
+[2022-08-10 20:20:54] [ INFO ] [AnimalMain:40] Dados inseridos na tabela
+[2022-08-10 20:28:51] [ INFO ] [AnimalMain:26] Banco de dados conectado
+[2022-08-10 20:28:51] [ INFO ] [AnimalMain:31] Tabela Animal criada
+[2022-08-10 20:28:51] [ INFO ] [AnimalMain:34] Buchecha inserido na tabela
+[2022-08-10 20:28:51] [ INFO ] [AnimalMain:37] Brownie inserido na tabela
+[2022-08-10 20:28:51] [ INFO ] [AnimalMain:40] Flora inserida na tabela
+[2022-08-10 20:36:17] [ INFO ] [AnimalMain:31] Banco de dados conectado
+[2022-08-10 20:36:17] [ INFO ] [AnimalMain:36] Tabela Animal criada
+[2022-08-10 20:36:17] [ INFO ] [AnimalMain:39] Buchecha inserido na tabela
+[2022-08-10 20:36:17] [ INFO ] [AnimalMain:42] Brownie inserido na tabela
+[2022-08-10 20:36:17] [ INFO ] [AnimalMain:45] Flora inserida na tabela
+[2022-08-10 20:36:17] [ INFO ] [AnimalMain:48] Animal inserido na tabela
+[2022-08-10 20:38:44] [ INFO ] [AnimalMain:32] Banco de dados conectado
+[2022-08-10 20:38:44] [ INFO ] [AnimalMain:37] Tabela Animal criada
+[2022-08-10 20:38:44] [ INFO ] [AnimalMain:40] Buchecha inserido na tabela
+[2022-08-10 20:38:44] [ INFO ] [AnimalMain:43] Brownie inserido na tabela
+[2022-08-10 20:38:44] [ INFO ] [AnimalMain:46] Flora inserida na tabela
+[2022-08-10 20:38:44] [ INFO ] [AnimalMain:49] Animal deletado na tabela
+[2022-08-10 20:38:44] [ ERROR] [AnimalMain:55] Erro de conexão
+[2022-08-10 20:46:09] [ INFO ] [AnimalMain:34] Banco de dados conectado
+[2022-08-10 20:46:09] [ INFO ] [AnimalMain:39] Tabela Animal criada
+[2022-08-10 20:46:09] [ INFO ] [AnimalMain:42] Buchecha inserido na tabela
+[2022-08-10 20:46:09] [ INFO ] [AnimalMain:45] Brownie inserido na tabela
+[2022-08-10 20:46:09] [ INFO ] [AnimalMain:48] Flora inserida na tabela
+[2022-08-10 20:46:09] [ INFO ] [AnimalMain:51] Animal deletado na tabela
+[2022-08-10 20:46:09] [ INFO ] [AnimalMain:54] Animal inserido na tabela
+[2022-08-10 21:00:33] [ INFO ] [AnimalMain:34] Banco de dados conectado
+[2022-08-10 21:00:33] [ INFO ] [AnimalMain:39] Tabela Animal criada
+[2022-08-10 21:00:33] [ INFO ] [AnimalMain:42] Animal inserido na tabela
+[2022-08-10 21:00:33] [ INFO ] [AnimalMain:45] Animal inserido na tabela
+[2022-08-10 21:00:33] [ INFO ] [AnimalMain:48] Animal inserido na tabela
+[2022-08-10 21:00:33] [ INFO ] [AnimalMain:51] Animal inserido na tabela
+[2022-08-10 21:00:33] [ INFO ] [AnimalMain:54] Animal inserido na tabela
+[2022-08-10 21:00:33] [ INFO ] [AnimalMain:58] Imprimindo os 5 animais
+[2022-08-10 21:00:33] [ INFO ] [AnimalMain:64] Animal deletado da tabela
+[2022-08-10 21:00:33] [ INFO ] [AnimalMain:68] Imprimindo os 4 animais
+[2022-08-10 22:15:08] [ INFO ] [Main:19] Banco de dados conectado
+[2022-08-10 22:15:08] [ ERROR] [Main:29] Erro de conexão
+[2022-08-10 22:17:58] [ INFO ] [Main:21] Banco de dados conectado
+[2022-08-10 22:20:30] [ INFO ] [Main:19] Banco de dados conectado
+[2022-08-10 22:20:31] [ ERROR] [Main:26] Erro de conexão
+[2022-08-10 22:21:02] [ INFO ] [Main:19] Banco de dados conectado
+[2022-08-10 22:21:02] [ INFO ] [Main:24] Tabela criada
+[2022-08-10 22:26:54] [ INFO ] [Main:29] Banco de dados conectado
+[2022-08-10 22:26:54] [ INFO ] [Main:34] Tabela criada
+[2022-08-10 22:26:54] [ INFO ] [Main:37] Figura inserida
+[2022-08-10 22:26:54] [ INFO ] [Main:40] Figura inserida
+[2022-08-10 22:26:54] [ INFO ] [Main:43] Figura inserida
+[2022-08-10 22:26:54] [ INFO ] [Main:46] Figura inserida
+[2022-08-10 22:26:54] [ INFO ] [Main:49] Figura inserida
+[2022-08-10 22:29:49] [ INFO ] [Main:31] Banco de dados conectado
+[2022-08-10 22:29:49] [ INFO ] [Main:36] Tabela criada
+[2022-08-10 22:29:49] [ INFO ] [Main:39] Figura inserida
+[2022-08-10 22:29:50] [ INFO ] [Main:42] Figura inserida
+[2022-08-10 22:29:50] [ INFO ] [Main:45] Figura inserida
+[2022-08-10 22:29:50] [ INFO ] [Main:48] Figura inserida
+[2022-08-10 22:29:50] [ INFO ] [Main:51] Figura inserida
+[2022-08-10 22:34:35] [ INFO ] [Main:32] Banco de dados conectado
+[2022-08-10 22:34:35] [ INFO ] [Main:37] Tabela criada
+[2022-08-10 22:34:36] [ INFO ] [Main:40] Figura inserida
+[2022-08-10 22:34:36] [ INFO ] [Main:43] Figura inserida
+[2022-08-10 22:34:36] [ INFO ] [Main:46] Figura inserida
+[2022-08-10 22:34:36] [ INFO ] [Main:49] Figura inserida
+[2022-08-10 22:34:36] [ INFO ] [Main:52] Figura inserida
+[2022-08-10 22:34:36] [ INFO ] [Main:56] Imprimindo apenas figuras vermelhas
+[2022-08-10 22:34:36] [ ERROR] [Main:62] Erro de conexão
+[2022-08-10 22:36:11] [ INFO ] [Main:32] Banco de dados conectado
+[2022-08-10 22:36:11] [ INFO ] [Main:37] Tabela criada
+[2022-08-10 22:36:11] [ INFO ] [Main:40] Figura inserida
+[2022-08-10 22:36:11] [ INFO ] [Main:43] Figura inserida
+[2022-08-10 22:36:11] [ INFO ] [Main:46] Figura inserida
+[2022-08-10 22:36:11] [ INFO ] [Main:49] Figura inserida
+[2022-08-10 22:36:11] [ INFO ] [Main:52] Figura inserida
+[2022-08-10 22:36:11] [ INFO ] [Main:56] Imprimindo apenas figuras vermelhas
+[2022-08-10 22:36:11] [ ERROR] [Main:62] Erro de conexão
+[2022-08-10 22:39:33] [ ERROR] [Main:63] Erro de conexão
+[2022-08-10 22:39:33] [ INFO ] [Main:67] Conexão fechada
+[2022-08-10 22:40:41] [ INFO ] [Main:32] Banco de dados conectado
+[2022-08-10 22:40:41] [ INFO ] [Main:37] Tabela criada
+[2022-08-10 22:40:41] [ INFO ] [Main:40] Figura inserida
+[2022-08-10 22:40:41] [ INFO ] [Main:43] Figura inserida
+[2022-08-10 22:40:41] [ INFO ] [Main:46] Figura inserida
+[2022-08-10 22:40:41] [ INFO ] [Main:49] Figura inserida
+[2022-08-10 22:40:41] [ INFO ] [Main:52] Figura inserida
+[2022-08-10 22:40:41] [ INFO ] [Main:56] Imprimindo apenas figuras vermelhas
+[2022-08-10 22:40:41] [ ERROR] [Main:63] Erro de conexão
+[2022-08-10 22:43:51] [ ERROR] [Main:63] Erro de conexão
+[2022-08-10 22:43:51] [ INFO ] [Main:67] Conexão fechada
+[2022-08-10 22:44:54] [ INFO ] [Main:32] Banco de dados conectado
+[2022-08-10 22:44:54] [ INFO ] [Main:37] Tabela criada
+[2022-08-10 22:44:54] [ INFO ] [Main:40] Figura inserida
+[2022-08-10 22:44:54] [ INFO ] [Main:43] Figura inserida
+[2022-08-10 22:44:54] [ INFO ] [Main:46] Figura inserida
+[2022-08-10 22:44:54] [ INFO ] [Main:49] Figura inserida
+[2022-08-10 22:44:54] [ INFO ] [Main:52] Figura inserida
+[2022-08-10 22:44:54] [ INFO ] [Main:56] Imprimindo apenas figuras vermelhas
+[2022-08-10 22:44:54] [ ERROR] [Main:63] Erro de conexão
+[2022-08-10 22:45:30] [ INFO ] [Main:32] Banco de dados conectado
+[2022-08-10 22:45:30] [ INFO ] [Main:37] Tabela criada
+[2022-08-10 22:45:30] [ INFO ] [Main:40] Figura inserida
+[2022-08-10 22:45:30] [ INFO ] [Main:43] Figura inserida
+[2022-08-10 22:45:30] [ INFO ] [Main:46] Figura inserida
+[2022-08-10 22:45:30] [ INFO ] [Main:49] Figura inserida
+[2022-08-10 22:45:30] [ INFO ] [Main:52] Figura inserida
+[2022-08-10 22:45:30] [ INFO ] [Main:56] Imprimindo apenas figuras vermelhas
+[2022-08-10 22:45:30] [ ERROR] [Main:63] Erro de conexão
+[2022-08-10 22:47:28] [ INFO ] [Main:32] Banco de dados conectado
+[2022-08-10 22:47:28] [ INFO ] [Main:37] Tabela criada
+[2022-08-10 22:47:28] [ INFO ] [Main:40] Figura inserida
+[2022-08-10 22:47:28] [ INFO ] [Main:43] Figura inserida
+[2022-08-10 22:47:28] [ INFO ] [Main:46] Figura inserida
+[2022-08-10 22:47:28] [ INFO ] [Main:49] Figura inserida
+[2022-08-10 22:47:28] [ INFO ] [Main:52] Figura inserida
+[2022-08-10 22:47:28] [ INFO ] [Main:56] Imprimindo apenas figuras vermelhas
+[2022-08-10 22:47:28] [ ERROR] [Main:63] Erro de conexão
+[2022-08-10 22:47:47] [ INFO ] [Main:32] Banco de dados conectado
+[2022-08-10 22:47:47] [ INFO ] [Main:37] Tabela criada
+[2022-08-10 22:47:47] [ INFO ] [Main:40] Figura inserida
+[2022-08-10 22:47:47] [ INFO ] [Main:43] Figura inserida
+[2022-08-10 22:47:47] [ INFO ] [Main:46] Figura inserida
+[2022-08-10 22:47:47] [ INFO ] [Main:49] Figura inserida
+[2022-08-10 22:47:47] [ INFO ] [Main:52] Figura inserida
+[2022-08-10 22:47:47] [ INFO ] [Main:56] Imprimindo apenas figuras vermelhas
+[2022-08-10 22:47:48] [ ERROR] [Main:63] Erro de conexão
+[2022-08-10 22:48:43] [ INFO ] [Main:32] Banco de dados conectado
+[2022-08-10 22:48:43] [ INFO ] [Main:37] Tabela criada
+[2022-08-10 22:48:43] [ INFO ] [Main:40] Figura inserida
+[2022-08-10 22:48:43] [ INFO ] [Main:43] Figura inserida
+[2022-08-10 22:48:43] [ INFO ] [Main:46] Figura inserida
+[2022-08-10 22:48:43] [ INFO ] [Main:49] Figura inserida
+[2022-08-10 22:48:43] [ INFO ] [Main:52] Figura inserida
+[2022-08-10 22:48:44] [ INFO ] [Main:56] Imprimindo apenas figuras vermelhas
+[2022-08-10 22:48:44] [ ERROR] [Main:63] Erro de conexão
+[2022-08-10 22:49:46] [ INFO ] [Main:32] Banco de dados conectado
+[2022-08-10 22:49:46] [ INFO ] [Main:37] Tabela criada
+[2022-08-10 22:49:46] [ INFO ] [Main:40] Figura inserida
+[2022-08-10 22:49:46] [ INFO ] [Main:43] Figura inserida
+[2022-08-10 22:49:46] [ INFO ] [Main:46] Figura inserida
+[2022-08-10 22:49:46] [ INFO ] [Main:49] Figura inserida
+[2022-08-10 22:49:46] [ INFO ] [Main:52] Figura inserida
+[2022-08-10 22:49:46] [ INFO ] [Main:56] Imprimindo apenas figuras vermelhas
+[2022-08-10 22:51:16] [ INFO ] [Main:32] Banco de dados conectado
+[2022-08-10 22:51:16] [ INFO ] [Main:37] Tabela criada
+[2022-08-10 22:51:16] [ INFO ] [Main:40] Figura inserida
+[2022-08-10 22:51:16] [ INFO ] [Main:43] Figura inserida
+[2022-08-10 22:51:16] [ INFO ] [Main:46] Figura inserida
+[2022-08-10 22:51:16] [ INFO ] [Main:49] Figura inserida
+[2022-08-10 22:51:16] [ INFO ] [Main:52] Figura inserida
+[2022-08-10 22:51:16] [ INFO ] [Main:56] Imprimindo apenas círculos vermelhos
+[2022-08-10 22:52:59] [ INFO ] [Main:34] Banco de dados conectado
+[2022-08-10 22:53:00] [ INFO ] [Main:39] Tabela criada
+[2022-08-10 22:53:00] [ INFO ] [Main:42] Figura inserida
+[2022-08-10 22:53:00] [ INFO ] [Main:45] Figura inserida
+[2022-08-10 22:53:00] [ INFO ] [Main:48] Figura inserida
+[2022-08-10 22:53:00] [ INFO ] [Main:51] Figura inserida
+[2022-08-10 22:53:00] [ INFO ] [Main:54] Figura inserida
+[2022-08-10 22:53:00] [ INFO ] [Main:57] Figura inserida
+[2022-08-10 22:53:00] [ INFO ] [Main:61] Imprimindo apenas círculos vermelhos
+[2022-08-10 22:54:09] [ INFO ] [Main:34] Banco de dados conectado
+[2022-08-10 22:54:09] [ INFO ] [Main:39] Tabela criada
+[2022-08-10 22:54:09] [ INFO ] [Main:42] Figura inserida
+[2022-08-10 22:54:09] [ INFO ] [Main:45] Figura inserida
+[2022-08-10 22:54:09] [ INFO ] [Main:48] Figura inserida
+[2022-08-10 22:54:09] [ INFO ] [Main:51] Figura inserida
+[2022-08-10 22:54:09] [ INFO ] [Main:54] Figura inserida
+[2022-08-10 22:54:09] [ INFO ] [Main:57] Figura inserida
+[2022-08-10 22:54:09] [ INFO ] [Main:61] Imprimindo apenas círculos vermelhos
+[2022-08-10 22:56:27] [ INFO ] [Main:36] Banco de dados conectado
+[2022-08-10 22:56:27] [ INFO ] [Main:41] Tabela criada
+[2022-08-10 22:56:27] [ INFO ] [Main:44] Figura inserida
+[2022-08-10 22:56:27] [ INFO ] [Main:47] Figura inserida
+[2022-08-10 22:56:27] [ INFO ] [Main:50] Figura inserida
+[2022-08-10 22:56:27] [ INFO ] [Main:53] Figura inserida
+[2022-08-10 22:56:27] [ INFO ] [Main:56] Figura inserida
+[2022-08-10 22:56:27] [ INFO ] [Main:59] Figura inserida
+[2022-08-10 22:56:27] [ INFO ] [Main:63] Imprimindo apenas círculos vermelhos
+[2022-08-10 22:56:27] [ INFO ] [Main:71] Imprimindo todas as figuras
+[2022-08-10 23:22:49] [ INFO ] [Main:36] Banco de dados conectado
+[2022-08-10 23:22:49] [ INFO ] [Main:41] Tabela criada
+[2022-08-10 23:22:49] [ INFO ] [Main:44] Figura inserida
+[2022-08-10 23:22:49] [ INFO ] [Main:47] Figura inserida
+[2022-08-10 23:22:49] [ INFO ] [Main:50] Figura inserida
+[2022-08-10 23:22:49] [ INFO ] [Main:53] Figura inserida
+[2022-08-10 23:22:49] [ INFO ] [Main:56] Figura inserida
+[2022-08-10 23:22:49] [ INFO ] [Main:59] Figura inserida
+[2022-08-10 23:22:49] [ INFO ] [Main:63] Imprimindo apenas círculos vermelhos
+[2022-08-10 23:22:49] [ INFO ] [Main:71] Imprimindo todas as figuras
+[2022-08-11 00:26:06] [ INFO ] [Main:36] Banco de dados conectado
+[2022-08-11 00:26:06] [ INFO ] [Main:41] Tabela criada
+[2022-08-11 00:26:06] [ INFO ] [Main:44] Figura inserida
+[2022-08-11 00:26:06] [ INFO ] [Main:47] Figura inserida
+[2022-08-11 00:26:06] [ INFO ] [Main:50] Figura inserida
+[2022-08-11 00:26:06] [ INFO ] [Main:53] Figura inserida
+[2022-08-11 00:26:06] [ INFO ] [Main:56] Figura inserida
+[2022-08-11 00:26:06] [ INFO ] [Main:59] Figura inserida
+[2022-08-11 00:26:07] [ INFO ] [Main:63] Imprimindo apenas círculos vermelhos
+[2022-08-11 00:26:07] [ INFO ] [Main:71] Imprimindo todas as figuras
