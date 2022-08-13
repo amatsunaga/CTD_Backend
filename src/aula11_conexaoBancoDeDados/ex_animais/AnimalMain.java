@@ -1,6 +1,6 @@
-package aula11_bancoDeDados.ex_animais;
+package aula11_conexaoBancoDeDados.ex_animais;
 
-import aula11_bancoDeDados.ex_animais.jdbc.AnimalConnectionDB;
+import aula11_conexaoBancoDeDados.ex_animais.jdbc.AnimalConnectionDB;
 import org.apache.log4j.Logger;
 
 import java.sql.Connection;

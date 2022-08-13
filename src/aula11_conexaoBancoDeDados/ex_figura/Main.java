@@ -1,4 +1,4 @@
-package aula11_bancoDeDados.ex_figura;
+package aula11_conexaoBancoDeDados.ex_figura;
 
 import org.apache.log4j.Logger;
 

@@ -1,4 +1,4 @@
-package aula11_bancoDeDados.exemplo;
+package aula11_conexaoBancoDeDados.exemplo;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

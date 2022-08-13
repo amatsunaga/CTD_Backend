@@ -1,4 +1,4 @@
-package aula11_bancoDeDados.ex_empregado;
+package aula11_conexaoBancoDeDados.ex_empregado;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
